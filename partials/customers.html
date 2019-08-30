@@ -1,0 +1,19 @@
+<div class="input-group"><label>Customer:</label> {{cName + " "}} <label for="phone">Phone: </label> {{cPhone }}</div>
+
+<div class="container">
+<form class="form-horizontal">
+    <div class="form-group">
+        <label for="name">Customer name: </label>
+        <input type="text" ng-model="iName">
+    </div>
+    
+    <div class="form-group">
+        <label for="tel">Customer phone: </label> 
+        <input type="tel" ng-model="iPhone">
+    </div>
+
+    <div class="btn-group">
+        <button class="btn-danger" ng-click="changeCustomer();">Change Customer</button>
+    </div>
+</form>
+</div>
